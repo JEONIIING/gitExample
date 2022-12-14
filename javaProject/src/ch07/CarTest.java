@@ -1,0 +1,14 @@
+package ch07;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		Car myCar = new Car(); //객체생성
+		myCar.changeGear(1);
+		myCar.speedUp();
+		System.out.println(myCar); //toString 개발자 코드를 불러옴 
+		
+		
+	}
+
+}
