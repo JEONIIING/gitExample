@@ -1,7 +1,7 @@
 package ch16;
 
 public class Priority extends Thread {
-	
+	//Priority
 	public static void main(String[] args) {
 		Priority e1 = new Priority();
 		Priority e2 = new Priority();
